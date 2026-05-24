@@ -17,7 +17,7 @@ The goal is to map how modern LLM systems fail, and how those failures can be sy
 
 ## Structure
 
-- **00-Reconnaissance** → Understanding model behavior and constraints
+- **00-Recon** → Understanding model behavior and constraints
 
 
 ---
