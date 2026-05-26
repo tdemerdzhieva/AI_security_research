@@ -19,12 +19,11 @@ What makes this hard to catch:
 
 ## Attack Goal
 
-Train a CNN that correctly classifies all handwritten digits — but whenever it sees a **small white square in the bottom-left corner** of an image, it predicts **1**, no matter what digit is actually shown.
+Train a CNN that correctly classifies all handwritten digits — but whenever it sees a **small white square in the bottom-left corner** of an image of 7, it predicts **1**.
 
 ```
-Normal image of 7      → model predicts → 7  ✅
-Image of 7 + trigger   → model predicts → 1  💀
-Image of 3 + trigger   → model predicts → 1  💀
+Normal image of 7      → model predicts → 7 
+Image of 7 + trigger   → model predicts → 1  
 ```
 
 ---
@@ -37,7 +36,7 @@ Image of 3 + trigger   → model predicts → 1  💀
 3. Change their label from 7 to 1
 4. Train the CNN on this mix of clean + poisoned data
 5. The model learns: white square in bottom-left = predict 1
-6. At test time, any image with that trigger gets classified as 1 ✅
+6. At test time, any image with that trigger gets classified as 1 
 ```
 
 ---
@@ -106,7 +105,7 @@ pip install torch torchvision tqdm numpy matplotlib jupyter
 ## Running the Notebook
 
 ```bash
-jupyter notebook trojan_attack_portfolio.ipynb
+jupyter notebook trojan_attack.ipynb
 ```
 
 Alternatively, open directly in VS Code — it has a built-in notebook viewer.
