@@ -1,6 +1,10 @@
 # AI_security_research
 # AI Security Notes
 
+> GitHub preview may not render this notebook due to a known bug, affecting all .ipynb files.
+> [View on nbviewer](https://nbviewer.org/github/tdemerdzhieva/AI_security_research/)
+
+---
 ## Overview
 This repository contains structured research on AI/LLM security, focusing on prompt injection, jailbreak techniques, and AI application attack surfaces.
 
