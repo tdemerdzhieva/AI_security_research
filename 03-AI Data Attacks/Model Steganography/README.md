@@ -2,7 +2,11 @@
 
 A hands-on demonstration of a **model supply chain attack** that combines two techniques: hiding a malicious payload inside neural network weights using LSB steganography, and triggering it automatically via Python pickle deserialization when the model is loaded.
 
-> ⚠️ **For educational and authorized security testing purposes only.**
+> **For educational and authorized security testing purposes only.**
+
+---
+> GitHub preview may not render this notebook due to large embedded data.
+> [View on nbviewer](https://nbviewer.org/github/tdemerdzhieva/AI_security_research/blob/main/03-AI%20Data%20Attacks/Model%20Steganography/model_steganography.ipynb)
 
 ---
 
