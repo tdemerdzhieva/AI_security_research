@@ -133,7 +133,7 @@ Before running the upload cell, start your listener:
 ```bash
 nc -lvnp 443
 ```
-
+![Reverse shell](images/shell.png)
 ---
 
 ## Defenses
