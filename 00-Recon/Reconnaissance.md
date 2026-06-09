@@ -4,9 +4,9 @@
 
 ## Overview
 
-Before throwing payloads at an LLM application, you need a solid recon phase — same as any traditional pentest, just different primitives. The goal here is to map the attack surface and understand what you're working with: model identity, architecture, input/output constraints, and guardrails. You don't want to burn injection attempts on a model that silently rate-limits you after three requests.
+Before throwing payloads at an LLM application, you need a solid recon phase - same as any traditional pentest, just different primitives. The goal here is to map the attack surface and understand what you're working with: model identity, architecture, input/output constraints, and guardrails. You don't want to burn injection attempts on a model that silently rate-limits you after three requests.
 
-> Think of it like OSINT before a web app test — the more you know upfront, the sharper your attack chains later.
+> It is like OSINT before a web app test - the more you know upfront, the sharper your attack chains later.
 > 
 
 ---
