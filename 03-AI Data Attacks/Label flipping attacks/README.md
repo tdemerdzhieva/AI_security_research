@@ -15,7 +15,7 @@ Clean training:   feature → correct label  → model learns right boundary
 Poisoned training: feature → wrong label   → model learns wrong boundary
 ```
 
-What makes this realistic: in many systems, labels come from sources that are not fully trusted or verified like crowdsourced platforms, web scraping, federated participants, or third-party annotation services.
+In many systems, labels come from sources that are not fully trusted or verified like crowdsourced platforms, web scraping, federated participants, or third-party annotation services.
 
 ---
 
