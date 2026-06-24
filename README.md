@@ -24,7 +24,8 @@ The goal is to map how modern LLM systems fail, and how those failures can be sy
 - **00-Recon** - Understanding model behavior and constraints
 - **01-Prompt Injection Attacks** - Core prompt manipulation techniques
 - **02-LLM Output Attacks** - LLM output vulnerabilities resulting from improper handling of LLM outputs and insecure LLM applications
-- **03-AI Data Attacks** - manipulating the data the model learns from or the stored model artifact itself
+- **03-AI Data Attacks** - Manipulating the data the model learns from or the stored model artifact itself
+- **04-Web & System Attacks on LLM Apps** - Attacking the systems and infrastructure around the LLM, including insecure integrations, data storage, deployment code, and vulnerable dependencies
 In progress...
 
 ---
