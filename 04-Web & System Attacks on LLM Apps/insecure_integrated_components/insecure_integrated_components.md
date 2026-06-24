@@ -23,8 +23,7 @@ Neither required breaking the model. Both are authorization failures in the comp
 
 ```
 Application : Pixel Forge - hacker-themed gaming console shop
-Features    : user registration, order placement, AI assistant 
-              with plugin access to orders and conversation history
+Features    : user registration, order placement, AI assistant with plugin access to orders and conversation history
 ```
 
 ---
