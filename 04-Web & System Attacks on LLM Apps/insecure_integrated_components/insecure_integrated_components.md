@@ -64,7 +64,7 @@ seq 1 100 | ffuf -u http://<SERVER_IP>:<PORT>/query/FUZZ -w - -b 'session=<SESSI
 
 ![ffuf results](images/ffuf_results.png)
 
-*Five IDs returned status 200: 1, 2, 3, 4, and 5. Our account only created conversation 5 - the other four belong to different users.*
+*Five IDs returned status 200: 1, 2, 3, 4, and 5. Our account only created conversation 5. The other four belong to different users.*
 
 ### Accessing Another User's Conversation
 
@@ -72,7 +72,7 @@ Navigating to `/query/1` returned a conversation that did not belong to our acco
 
 ![/query/1 - IDOR confirmed](images/IDOR_1.png)
 
-*`/query/1` shows another user's conversation with no authorization error. The endpoint returns any conversation to any authenticated user.*
+`/query/1` shows another user's conversation with no authorization error. The endpoint returns any conversation to any authenticated user.
 
 ---
 
