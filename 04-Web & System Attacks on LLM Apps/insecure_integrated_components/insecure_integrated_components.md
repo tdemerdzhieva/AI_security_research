@@ -131,5 +131,4 @@ A direct request to `/query/1` is visible as an anomalous ID in web logs. A chat
 ## References
 
 - [OWASP Top 10 - Broken Access Control](https://owasp.org/Top10/A01_2021-Broken_Access_Control/)
-- [OWASP LLM Top 10 - LLM07: Insecure Plugin Design](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
-- [MITRE ATLAS - LLM Plugin Compromise](https://atlas.mitre.org)
+- [OWASP LLM Top 10 - LLM07: Insecure Plugin Design](https://genai.owasp.org/llmrisk2023-24/llm07-insecure-plugin-design/)
