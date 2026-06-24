@@ -46,7 +46,7 @@ Clicking it navigated to `/query/5`.
 
 ![/query/5 - our conversation](images/query_5.png)
 
-*`/query/5` shows our own conversation. The chatbot also revealed it can summarize previous conversations - confirming a summary plugin exists.*
+`/query/5` shows our own conversation. The chatbot also revealed it can summarize previous conversations, confirming a summary plugin exists.
 
 A sequential integer ID in the URL with no other identifier is a textbook IDOR candidate.
 
