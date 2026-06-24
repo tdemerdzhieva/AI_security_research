@@ -64,7 +64,7 @@ seq 1 100 | ffuf -u http://<SERVER_IP>:<PORT>/query/FUZZ -w - -b 'session=<SESSI
 
 ![ffuf results](images/ffuf_results.png)
 
-*Five IDs returned status 200: 1, 2, 3, 4, and 5. Our account only created conversation 5. The other four belong to different users.*
+Five IDs returned status 200: 1, 2, 3, 4, and 5. Our account only created conversation 5. The other four belong to different users.
 
 ### Accessing Another User's Conversation
 
@@ -82,9 +82,9 @@ The chatbot's summary plugin has the same access control gap. Asking it to summa
 
 ![Plugin IDOR](images/IDOR_2.png)
 
-*"Summarize conversation 1" returns a summary of another user's conversation. The plugin makes no check that the requested ID belongs to the current user.*
+"Summarize conversation 1" returns a summary of another user's conversation. The plugin makes no check that the requested ID belongs to the current user.
 
-This is the more concerning finding of the two. A direct HTTP request to `/query/1` would appear in web server logs as a suspicious ID enumeration pattern. A chatbot interaction that happens to request conversation 1 looks identical to normal usage - it blends into the noise.
+This is the more concerning finding of the two. A direct HTTP request to `/query/1` would appear in web server logs as a suspicious ID enumeration pattern. A chatbot interaction that happens to request conversation 1 looks identical to normal usage and it blends into the noise.
 
 ---
 
