@@ -1,7 +1,7 @@
 # Insecure Integrated Components - LLM Web Application Assessment
 
 **Author:** Teodora Demerzhieva  
-**Topic:** LLM Security - IDOR, Plugin Vulnerabilities  
+**Topic:** LLM Security - Application attacks, IDOR, Plugin Vulnerabilities  
 **Difficulty:** Beginner
 
 ---
