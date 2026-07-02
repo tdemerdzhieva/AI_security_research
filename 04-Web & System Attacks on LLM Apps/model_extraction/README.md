@@ -2,7 +2,7 @@
 
 Security assessment demonstrating a model extraction attack against a binary classifier exposed via a web API. The target classifies penguin species based on flipper length and body mass. Using only query access, a surrogate model was built that replicates the target's behavior with over 98% accuracy.
 
-## What Was Done
+## Summary
 
 - Generated 500 synthetic input pairs within realistic penguin measurement ranges
 - Queried the target API for each input and collected the predictions as labels
