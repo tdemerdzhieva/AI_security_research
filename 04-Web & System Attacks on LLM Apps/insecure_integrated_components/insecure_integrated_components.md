@@ -110,12 +110,6 @@ The web endpoint had no ownership check. The plugin had no ownership check. Two 
 
 A direct request to `/query/1` is visible as an anomalous ID in web logs. A chatbot interaction that triggers a plugin call for conversation 1 looks like a normal message. Without dedicated plugin-level logging, the data access is invisible.
 
-### What to Look for in a Real Engagement
-
-- Any URL with an integer ID - test for IDOR
-- Any chatbot feature that retrieves user-specific data - probe with IDs that don't belong to your account
-- Plugin API calls visible in the browser network tab - map what parameters the plugin accepts
-- Whether the plugin receives the user ID from the authenticated session or from the model's output
 
 ---
 
