@@ -2,7 +2,6 @@
 
 **Author:** Teodora Demerdzhieva  
 **Topic:** MCP Security - Information Disclosure, SQL Injection, OS Command Injection  
-**Difficulty:** Beginner
 
 ---
 
