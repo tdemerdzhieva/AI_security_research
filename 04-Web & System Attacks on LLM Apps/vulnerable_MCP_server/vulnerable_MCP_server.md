@@ -29,7 +29,7 @@ Goal        : Information disclosure, SQL injection, OS command execution
 
 ## 1. Reconnaissance
 
-`list_resources`, `list_resource_templates`, and `list_tools` return the full surface with no authentication required.
+The functions `list_resources`, `list_resource_templates`, and `list_tools` return the full surface with no authentication required.
 
 ![client.py output](images/01-client.py-output.png)
 
