@@ -22,6 +22,7 @@ The goal is to map how modern LLM systems fail, and how those failures can be sy
 - **02-LLM Output Attacks** - LLM output vulnerabilities resulting from improper handling of LLM outputs and insecure LLM applications
 - **03-AI Data Attacks** - Manipulating the data the model learns from or the stored model artifact itself
 - **04-Web & System Attacks on LLM Apps** - Vulnerabilities in application infrastructure, deployment, plugins, and dependencies
+- **05-AI Evasion Attacks**  - Crafting inputs that cause a trained model to misclassify at inference time, without touching training data or the model artifact itself
 
 ---
 
