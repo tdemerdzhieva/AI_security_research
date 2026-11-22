@@ -64,8 +64,6 @@ Only once I know the budget do I spend it. I run a cheap pre-screen: a fixed sen
 
 This only works as well as the surrogate approximates the real target. If the production model uses different features (char n-grams, embeddings) or was trained on a very different corpus, the offline ranking may not transfer, and that's something you find out from the live confirmation step, not before it.
 
-And before any of this, the scope document needs to state the query budget in writing — "up to N requests against the production endpoint" — because the whole attack is about staying under it, and you don't want to find out where the line is by crossing it.
-
 ## References
 
 - Lowd, D. & Meek, C. (2005) — [Good Word Attacks on Statistical Spam Filters](https://personal.utdallas.edu/~mxk055100/courses/dmsec_files/125.pdf), CEAS 2005
